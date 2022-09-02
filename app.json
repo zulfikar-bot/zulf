@@ -1,0 +1,21 @@
+{
+  "name": "Zulfikar Bot",
+  "description": "WhatsApp Bot Universal",
+  "repository": "https://github.com/arivpns/arivpns",
+  "logo": "https://scontent.fcgk35-1.fna.fbcdn.net/v/t1.6435-9/88248395_108584750748698_3424284829900865536_n.png?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFrlxN0Nof4XOLWra5O0m0Lm73WbR0T1zKbvdZtHRPXMslW31ZjSV85Ofs57zUxQNy0-7V1MN6dbme03SsuOi-q&_nc_ohc=TCDTb_4B7AwAX9hSrE-&_nc_ht=scontent.fcgk35-1.fna&oh=00_AT8NA8jVXqerOPzv_eUO53wdEQ6u3-jdV2I6oPId279FeA&oe=630B65B4",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  },
+  {
+    "url": "https://github.com/fewerandfaster/heroku-buildpack-imagemagick.git"
+  },
+  {
+    "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+  }    
+ ]
+}
