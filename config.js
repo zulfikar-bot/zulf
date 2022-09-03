@@ -57,6 +57,7 @@ global.socket = {
 global.useMulti = false
 
 global.media = 'https://telegra.ph/file/e141da747a290df37c1fc.png'
+global.qris = 'https://telegra.ph/file/28166c98e61cc90b93a5c.png'
 
 // Sticker WM
 global.packname = '▶️ Zulfikar Bot'

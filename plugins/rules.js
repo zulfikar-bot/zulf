@@ -1,6 +1,6 @@
 let fetch = require('node-fetch') 
 let handler = async (m, { conn, args, command }) => {
-	await conn.sendButton(m.chat, `       ━━━『 *Rules 𝐀𝐫𝐢𝐞 𝐓𝐮𝐛𝐞* 』━━━
+	await conn.sendButton(m.chat, `       ━━━『 *Rules Zulfikar Bot* 』━━━
             
 ➤ Tolong Gunakan Delay Jangan Spam Saat Menggunakan Bot. 
 ➤ Dilarang Untuk Menggunakan Command 18+ Berlebihan (Ketahuan = Banned)

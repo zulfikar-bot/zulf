@@ -401,7 +401,7 @@ module.exports = {
             if (name != 'unbanchat.js' && chat && chat.isBanned) return // Except this
             if (name != 'unbanuser.js' && user && (user.banned && (user.owner === false))) return // || user.police === false
           }
-          //if(!user.owner || !user.rowner) return conn.reply(m.chat, `Maaf @${m.sender.split`@`[0]} \n*『 Info 』*\nKami Staff 𝐀𝐫𝐢𝐞 𝐓𝐮𝐛𝐞 ingin melakukan backup data, dan sedikit meningkatkan performa bot.\nJadi, Kami dari Staff 𝐀𝐫𝐢𝐞 𝐓𝐮𝐛𝐞 memutuskan untuk melakukan *maintenance*, jika ada yang mau ditanyakan, harap hubungi Real Owner, Terima Kasih\n\n_*Hormat Kami, Staff 𝐀𝐫𝐢𝐞 𝐓𝐮𝐛𝐞*_`, m, { mentions: [m.sender] })
+          //if(!user.owner || !user.rowner) return conn.reply(m.chat, `Maaf @${m.sender.split`@`[0]} \n*『 Info 』*\nKami Staff Zulfikar Bot ingin melakukan backup data, dan sedikit meningkatkan performa bot.\nJadi, Kami dari Staff Zulfikar Bot memutuskan untuk melakukan *maintenance*, jika ada yang mau ditanyakan, harap hubungi Real Owner, Terima Kasih\n\n_*Hormat Kami, Staff Zulfikar Bot*_`, m, { mentions: [m.sender] })
           if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { // Both Owner
             fail('owner', m, this)
             continue
@@ -460,7 +460,7 @@ module.exports = {
           }
           
           if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-            this.sendButton(m.chat, `Limit anda habis, silahkan chat Owner atau beli melalui *${usedPrefix}buy*`, '© 𝐀𝐫𝐢𝐞𝐓𝐮𝐛𝐞-𝐁𝐨𝐭', { 'button[0]': 'Owner', 'row[0]': '.owner', 'button[1]': 'Buy', 'row[1]': '.buy', 'button[2]': 'Buy All', 'row[2]': '.buyall' }, m)
+            this.sendButton(m.chat, `Limit anda habis, silahkan chat Owner atau beli melalui *${usedPrefix}buy*`, '© 2022 - Zulfikar Bot', { 'button[0]': 'Owner', 'row[0]': '.owner', 'button[1]': 'Buy', 'row[1]': '.buy', 'button[2]': 'Buy All', 'row[2]': '.buyall' }, m)
             continue // Limit habis
           }
           if (plugin.level > _user.level) {

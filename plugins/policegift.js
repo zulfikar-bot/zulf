@@ -1,7 +1,7 @@
 let handler = async(m, { conn, args, usedPrefix }) => {
   
     if (args.length == 0) return conn.sendButton(m.chat, `Harap masukan Kode FreeGiftmu!\nJika Belum Ada Silahkan Chat Owner Untuk Meminta Kode`, wm, { 'button[0]': 'Owner', 'row[0]': '.owner' }, m)
-    if (args[0] == 'Police~𝐀𝐫𝐢𝐞 𝐓𝐮𝐛𝐞') {
+    if (args[0] == 'Police~Zulfikar Bot') {
 
     if (new Date - global.db.data.users[m.sender].lastpolicegift > 86400000) {
        conn.reply(m.chat, '*🎉 SELAMAT!*\nKamu telah mendapatkan\n750000 XP \n2500 Limit! \n20000 Money', m)
